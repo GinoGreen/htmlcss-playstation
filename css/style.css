@@ -26,6 +26,9 @@ body {
 .color_grey {
    color: grey;
 }
+.img_contain {
+   width: 100%;
+}
 /* ////////// HEADER /////////// */
 header {
    width: 100%;
@@ -67,9 +70,6 @@ section.jumbotron > .container.d-flex {
 .thumb_item.active {
    border: 3px solid #2D64E6;
 }
-.thumb_item img {
-   width: 100%;
-}
 /* ////////// PLAYSTATION 5 /////////// */
 .top_title {
    text-align: center;
@@ -77,7 +77,4 @@ section.jumbotron > .container.d-flex {
 .top_title span {
    font-size: 0.9em;
    color: #2D64E6;
-}
-img.play5 {
-   width: 100%;
 }
