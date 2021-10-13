@@ -1,4 +1,6 @@
-
+body {
+   color: #FFF;
+}
 .btn_custom {
    color: #FFF;
    border-radius: 20px;
@@ -32,4 +34,10 @@ header {
 .lens img{
    width: 30px;
    margin: 4px;
+}
+/* ////////// JUMBOTRON /////////// */
+section.jumbotron {
+   margin-top: 115px;
+   background-image: url('../img/returnal-listing-thumb-01-ps5.jpg');
+
 }
