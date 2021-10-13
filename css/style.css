@@ -1,6 +1,10 @@
 body {
    color: #FFF;
 }
+.section_bg {
+   background-size: cover;
+   background-position: center;
+}
 .btn_custom {
    color: #FFF;
    border-radius: 20px;
@@ -38,6 +42,13 @@ header {
 /* ////////// JUMBOTRON /////////// */
 section.jumbotron {
    margin-top: 115px;
-   background-image: url('../img/returnal-listing-thumb-01-ps5.jpg');
-
+   background-image: url('../img/jumbo-bg.png');
+}
+section.jumbotron > .container {
+   height: 560px;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+.banner_title {
+   width: 60%;
 }
