@@ -5,6 +5,13 @@ body {
    background-size: cover;
    background-position: center;
 }
+.py_50 {
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+.rounded_custom {
+   border-radius: 20px;
+}
 .btn_custom {
    color: #FFF;
    border-radius: 20px;
@@ -44,11 +51,21 @@ section.jumbotron {
    margin-top: 115px;
    background-image: url('../img/jumbo-bg.png');
 }
-section.jumbotron > .container {
+section.jumbotron > .container.d-flex {
    height: 560px;
-   padding-top: 50px;
-   padding-bottom: 50px;
 }
 .banner_title {
    width: 60%;
+}
+/* listing thumb */
+.thumb_item {
+   margin: 13px 0;
+   padding: 2px;
+   overflow: hidden;
+}
+.thumb_item.active {
+   border: 3px solid blue;
+}
+.thumb_item img {
+   width: 100%;
 }
