@@ -1,0 +1,35 @@
+
+.btn_custom {
+   color: #FFF;
+   border-radius: 20px;
+}
+.btn_custom:hover {
+   color: #FFF;
+}
+.chevron {
+   width: 12px;
+   margin: 0 5px;
+}
+nav ul li a {
+   color: #000;
+}
+/* ////////// HEADER /////////// */
+header {
+   width: 100vw;
+}
+/* logo sony  */
+.logo_sony {
+   background-color: #000;
+}
+.logo_sony img {
+   width: 110px;
+   padding: 12px;
+}
+/* navbar */
+.lens {
+   margin-left: 20px;
+}
+.lens img{
+   width: 30px;
+   margin: 4px;
+}
