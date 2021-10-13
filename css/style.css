@@ -54,7 +54,7 @@ section.jumbotron {
    margin-top: 115px;
    background-image: url('../img/jumbo-bg.png');
 }
-section.jumbotron > .container.d-flex {
+section.jumbotron > .container {
    height: 560px;
 }
 .banner_title {
@@ -77,4 +77,12 @@ section.jumbotron > .container.d-flex {
 .top_title span {
    font-size: 0.9em;
    color: #2D64E6;
+}
+/* ////////// BANNER >it take two heroes<  /////////// */
+section.banner_desktop {
+   background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+}
+
+section.banner_desktop > container {
+   height: 560px;
 }
