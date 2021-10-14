@@ -1,6 +1,6 @@
 body {
    color: #FFF;
-   /* font-size: 20px; */
+   font-size: 17px;
 }
 .section_bg {
    background-size: cover;
@@ -21,7 +21,7 @@ body {
    color: #FFF;
 }
 .chevron {
-   width: 12px;
+   width: 10px;
    margin: 0 5px;
 }
 .color_grey {
@@ -132,4 +132,7 @@ section.banner_desktop > container {
 /* ////////// FOOTER /////////// */
 footer {
    background-color: #00439C;
+}
+footer .play_logo {
+   width: 25%;
 }
