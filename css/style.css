@@ -116,3 +116,10 @@ section.banner_desktop > container {
 .thumb_item.release {
    margin-bottom: 40px;
 }
+/* ////////// PLAYSTATION PLUS /////////// */
+.play_plus {
+   background-color: #BEBCBB;
+}
+.play_plus button.btn_custom {
+   background-color: #D9DADC;
+}
