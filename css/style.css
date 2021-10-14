@@ -1,5 +1,6 @@
 body {
    color: #FFF;
+   /* font-size: 20px; */
 }
 .section_bg {
    background-size: cover;
@@ -36,6 +37,7 @@ body {
 /* ////////// HEADER /////////// */
 header {
    width: 100%;
+   font-size: initial;
    z-index: 999;
 }
 /* logo sony  */
@@ -126,4 +128,8 @@ section.banner_desktop > container {
 /* ////////// PLAYSTATION NOW /////////// */
 .play_now {
    background-color: #161C3B;
+}
+/* ////////// FOOTER /////////// */
+footer {
+   background-color: #00439C;
 }
