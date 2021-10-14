@@ -133,6 +133,12 @@ section.banner_desktop > container {
 footer {
    background-color: #00439C;
 }
+/* colonna LOGO */
 footer .play_logo {
    width: 25%;
+   display: block;
+}
+footer .language_globe {
+   width: 40px;
+   margin: 0 20px;
 }
