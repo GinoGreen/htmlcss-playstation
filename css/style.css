@@ -29,9 +29,14 @@ body {
 .img_contain {
    width: 100%;
 }
+.thumb_item {
+   overflow: hidden;
+   cursor: pointer;
+}
 /* ////////// HEADER /////////// */
 header {
    width: 100%;
+   z-index: 999;
 }
 /* logo sony  */
 .logo_sony {
@@ -61,13 +66,11 @@ section.jumbotron > .container {
    width: 60%;
 }
 /* listing thumb */
-.thumb_item {
+.thumb_item.jumbo {
    margin: 13px 0;
    padding: 2px;
-   overflow: hidden;
-   cursor: pointer;
 }
-.thumb_item.active {
+.thumb_item.jumbo.active {
    border: 3px solid #2D64E6;
 }
 /* ////////// PLAYSTATION 5 /////////// */
@@ -78,6 +81,26 @@ section.jumbotron > .container {
    font-size: 0.9em;
    color: #2D64E6;
 }
+/* accesories thumb ps5 */
+.thumb_item.accesory {
+   opacity: 0.5;
+   text-align: center;
+}
+.thumb_item.accesory.active {
+   opacity: 1;
+   border-bottom: 3px solid #2D64E6;
+}
+.thumb_item.accesory img {
+   width: 65%;
+}
+.thumb_item.accesory p {
+   margin: 0 auto 20px;
+   font-size: 0.9em;
+}
+.thumb_item.accesory.active p {
+   color: #000;
+}
+
 /* ////////// BANNER >it take two heroes<  /////////// */
 section.banner_desktop {
    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
