@@ -123,3 +123,7 @@ section.banner_desktop > container {
 .play_plus button.btn_custom {
    background-color: #D9DADC;
 }
+/* ////////// PLAYSTATION NOW /////////// */
+.play_now {
+   background-color: #161C3B;
+}
