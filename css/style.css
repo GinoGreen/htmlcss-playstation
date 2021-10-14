@@ -109,3 +109,10 @@ section.banner_desktop {
 section.banner_desktop > container {
    height: 560px;
 }
+/* ////////// NUOVE USCITE /////////// */
+.new_releases {
+   background-color: #1F1F1F;
+}
+.thumb_item.release {
+   margin-bottom: 40px;
+}
