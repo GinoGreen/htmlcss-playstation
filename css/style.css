@@ -111,9 +111,12 @@ header form a.nav_link:active {
    background-color: #fff;
    transform: translate(-370px, 0);
    position: absolute;
-   bottom: -245px;
+   top: 142%;
 }
-header .nav-item:active .cascade_menu {
+header .nav-item:hover .cascade_menu {
+   display: block;
+}
+header .cascade_menu:hover {
    display: block;
 }
 .cascade_menu ul {
