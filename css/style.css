@@ -16,9 +16,27 @@ body {
 .btn_custom {
    color: #FFF;
    border-radius: 20px;
+   outline-color: transparent;
+   transition: box-shadow .2s, outline-color .3s;
 }
 .btn_custom:hover {
    color: #FFF;
+   outline-offset: 3px;
+}
+.btn_custom.bg-black:hover  {
+   outline: 3px solid #000;
+}
+.btn_custom.bg-white:hover  {
+   outline: 3px solid #FFF;
+}
+.btn_custom.bg-danger:hover  {
+   outline: 3px solid #DC3545;
+}
+.btn_custom.bg-primary:hover  {
+   outline: 3px solid #0D6EFD;
+}
+.btn_custom.bg_grey:hover  {
+   box-shadow: 0 0 10px 3px rgba(68, 68, 68, .7);
 }
 .chevron {
    width: 10px;
@@ -34,11 +52,38 @@ body {
    overflow: hidden;
    cursor: pointer;
 }
+/* background - colori */
+.bg_grey {
+   background-color: #D9DADC;
+}
 /* ////////// HEADER /////////// */
 header {
    width: 100%;
    font-size: initial;
    z-index: 999;
+}
+header .nav_link {
+   color: #000;
+   text-decoration: none;
+   padding: 10px;
+}
+header a.nav_link:hover  {
+   color: #0D6EFD;
+}
+header a.nav_link:hover .chevron {
+   filter: invert(33%) sepia(76%) saturate(5658%) hue-rotate(215deg) brightness(102%) contrast(97%);
+}
+header a.nav_link:active  {
+   color: #0D6EFD;
+}
+header a.nav_link:active .chevron {
+   filter: invert(33%) sepia(76%) saturate(5658%) hue-rotate(215deg) brightness(102%) contrast(97%);
+}
+header form a.nav_link:hover {
+   color: #0D6EFD;
+}
+header form a.nav_link:active {
+   color: #0D6EFD;
 }
 /* logo sony  */
 .logo_sony {
@@ -71,9 +116,13 @@ section.jumbotron > .container {
 .thumb_item.jumbo {
    margin: 13px 0;
    padding: 2px;
+   transition: all .5s;
 }
 .thumb_item.jumbo.active {
    border: 3px solid #2D64E6;
+}
+.thumb_item.jumbo:hover {
+   transform: translate(0, -20px);
 }
 /* ////////// PLAYSTATION 5 /////////// */
 .top_title {
@@ -122,9 +171,6 @@ section.banner_desktop > container {
 .play_plus {
    background-color: #BEBCBB;
 }
-.play_plus button.btn_custom {
-   background-color: #D9DADC;
-}
 /* ////////// PLAYSTATION NOW /////////// */
 .play_now {
    background-color: #161C3B;
@@ -151,4 +197,3 @@ footer .language_globe {
    width: 40px;
    margin: 0 20px;
 }
-/* colonna lista voci */
