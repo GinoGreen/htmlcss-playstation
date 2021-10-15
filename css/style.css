@@ -2,6 +2,9 @@ body {
    color: #FFF;
    font-size: 17px;
 }
+ul li {
+   list-style: none;
+}
 .section_bg {
    background-size: cover;
    background-position: center;
@@ -101,6 +104,30 @@ header form a.nav_link:active {
    width: 30px;
    margin: 4px;
 }
+/* menu a cascata BONUS */
+.cascade_menu {
+   width: 100vw;
+   display: none;
+   background-color: #fff;
+   transform: translate(-370px, 0);
+   position: absolute;
+   bottom: -245px;
+}
+header .nav-item:active .cascade_menu {
+   display: block;
+}
+.cascade_menu ul {
+   width: 100%;
+   border-bottom: 1px solid rgba(68, 68, 68, .7);
+}
+.cascade_menu .thumb_item {
+   width: 90px;
+   margin: 20px;
+   transition: all .2s;
+}
+.cascade_menu .thumb_item:hover {
+   box-shadow: 0 0 15px 4px rgba(68, 68, 68, .7);
+}
 /* ////////// JUMBOTRON /////////// */
 section.jumbotron {
    margin-top: 115px;
@@ -188,7 +215,6 @@ footer {
    background-color: #00439C;
 }
 footer ul li {
-   list-style: none;
    margin: 20px 0;
 }
 footer a {
