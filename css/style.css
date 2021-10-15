@@ -209,6 +209,14 @@ section.banner_desktop > container {
 .play_plus {
    background-color: #BEBCBB;
 }
+/* ////////// DISCOUNTS /////////// */
+.discounts .thumb_item {
+   transition: transform 0.3s, box-shadow 0.3s;
+}
+.discounts .thumb_item:hover {
+   box-shadow: 0 0 35px 1px rgba(68, 68, 68, .7);
+   transform: scale(1.03, 1.03);
+}
 /* ////////// PLAYSTATION NOW /////////// */
 .play_now {
    background-color: #161C3B;
