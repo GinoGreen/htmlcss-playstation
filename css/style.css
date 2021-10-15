@@ -116,12 +116,16 @@ section.jumbotron > .container {
 .thumb_item.jumbo {
    margin: 13px 0;
    padding: 2px;
+   opacity: 0.5;
    transition: all .5s;
 }
 .thumb_item.jumbo.active {
    border: 3px solid #2D64E6;
+   opacity: 1;
 }
 .thumb_item.jumbo:hover {
+   box-shadow: 0 20px 16px rgba(68, 68, 68, .7);
+   opacity: 0.8;
    transform: translate(0, -20px);
 }
 /* ////////// PLAYSTATION 5 /////////// */
@@ -136,10 +140,14 @@ section.jumbotron > .container {
 .thumb_item.accesory {
    opacity: 0.5;
    text-align: center;
+   transition: opacity .3s;
 }
 .thumb_item.accesory.active {
    opacity: 1;
    border-bottom: 3px solid #2D64E6;
+}
+.thumb_item.accesory:hover {
+   opacity: .86;
 }
 .thumb_item.accesory img {
    width: 65%;
