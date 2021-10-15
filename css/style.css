@@ -105,30 +105,27 @@ header form a.nav_link:active {
    margin: 4px;
 }
 /* menu a cascata BONUS */
-.cascade_menu {
-   width: 100vw;
+.dropdown {
+   position: static !important;
+}
+.dropdown-menu {
+   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
+   margin-top: 0px !important;
+   width: 100% !important;
+}
+.dropdown-toggle::after {
    display: none;
-   background-color: #fff;
-   transform: translate(-370px, 0);
-   position: absolute;
-   top: 142%;
 }
-header .nav-item:hover .cascade_menu {
-   display: block;
-}
-header .cascade_menu:hover {
-   display: block;
-}
-.cascade_menu ul {
+.dropdown-menu.megamenu ul {
    width: 100%;
    border-bottom: 1px solid rgba(68, 68, 68, .7);
 }
-.cascade_menu .thumb_item {
+.navbar-nav .thumb_item {
    width: 90px;
    margin: 20px;
    transition: all .2s;
 }
-.cascade_menu .thumb_item:hover {
+.navbar-nav .thumb_item:hover {
    box-shadow: 0 0 15px 4px rgba(68, 68, 68, .7);
 }
 /* ////////// JUMBOTRON /////////// */
